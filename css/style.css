@@ -284,6 +284,11 @@ a:focus {
     background: #f8f9fa;
 }
 
+.small-text{
+    font-size: x-small;
+    color: #f3f6ff;
+}
+
 @media (min-width: 992px) {
     .navbar {
         position: absolute;
