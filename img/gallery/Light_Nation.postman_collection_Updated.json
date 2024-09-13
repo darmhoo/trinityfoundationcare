@@ -1,0 +1,360 @@
+{
+	"info": {
+		"_postman_id": "52541628-be3a-478a-9fd3-895488696783",
+		"name": "Light_Nation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "User_login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "Tm90aGluZztTcGhlcmVvZkxpZ2h0OkJhY2tlbmQ6QWNjZXNz",
+						"type": "text"
+					},
+					{
+						"key": "requestIP",
+						"value": "1.2.3.4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstname\":\"Tobi\",\r\n     \"lastname\":\"Daniel\",\r\n      \"email\":\"omoyeletobi@gmail.com\",\r\n       \"phonenumber\":\"08128284269\",\r\n        \"password\":\"123\",\r\n         \"profilePictureUrl\":\"vfgbhjkl;\",\r\n         \"dateRegistered\":\"2024-08-28\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8998/user/register",
+					"host": [
+						"localhost"
+					],
+					"port": "8998",
+					"path": [
+						"user",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User_Each_Detail",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "Tm90aGluZztTcGhlcmVvZkxpZ2h0OkJhY2tlbmQ6QWNjZXNz",
+						"type": "text"
+					},
+					{
+						"key": "requestIP",
+						"value": "1.2.3.4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstname\":\"Tobi\",\r\n     \"lastname\":\"Daniel\",\r\n      \"email\":\"omoyeletobi@gmail.com\",\r\n       \"phonenumber\":\"08128284269\",\r\n        \"password\":\"123\",\r\n         \"profilePictureUrl\":\"vfgbhjkl;\",\r\n         \"dateRegistered\":\"2024-08-28\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8998/user/register",
+					"host": [
+						"localhost"
+					],
+					"port": "8998",
+					"path": [
+						"user",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "View Users",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "Tm90aGluZztTcGhlcmVvZkxpZ2h0OkJhY2tlbmQ6QWNjZXNz",
+						"type": "text"
+					},
+					{
+						"key": "requestIP",
+						"value": "1.2.3.4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstname\":\"Tobi\",\r\n     \"lastname\":\"Daniel\",\r\n      \"email\":\"omoyeletobi@gmail.com\",\r\n       \"phonenumber\":\"08128284269\",\r\n        \"password\":\"123\",\r\n         \"profilePictureUrl\":\"vfgbhjkl;\",\r\n         \"dateRegistered\":\"2024-08-28\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8998/user/register",
+					"host": [
+						"localhost"
+					],
+					"port": "8998",
+					"path": [
+						"user",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "All Videos",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "Tm90aGluZztTcGhlcmVvZkxpZ2h0OkJhY2tlbmQ6QWNjZXNz",
+						"type": "text"
+					},
+					{
+						"key": "requestIP",
+						"value": "1.2.3.4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstname\":\"Tobi\",\r\n     \"lastname\":\"Daniel\",\r\n      \"email\":\"omoyeletobi@gmail.com\",\r\n       \"phonenumber\":\"08128284269\",\r\n        \"password\":\"123\",\r\n         \"profilePictureUrl\":\"vfgbhjkl;\",\r\n         \"dateRegistered\":\"2024-08-28\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8998/user/register",
+					"host": [
+						"localhost"
+					],
+					"port": "8998",
+					"path": [
+						"user",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "All Free Videos",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "Tm90aGluZztTcGhlcmVvZkxpZ2h0OkJhY2tlbmQ6QWNjZXNz",
+						"type": "text"
+					},
+					{
+						"key": "requestIP",
+						"value": "1.2.3.4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstname\":\"Tobi\",\r\n     \"lastname\":\"Daniel\",\r\n      \"email\":\"omoyeletobi@gmail.com\",\r\n       \"phonenumber\":\"08128284269\",\r\n        \"password\":\"123\",\r\n         \"profilePictureUrl\":\"vfgbhjkl;\",\r\n         \"dateRegistered\":\"2024-08-28\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8998/user/register",
+					"host": [
+						"localhost"
+					],
+					"port": "8998",
+					"path": [
+						"user",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "All Paid Videos",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "Tm90aGluZztTcGhlcmVvZkxpZ2h0OkJhY2tlbmQ6QWNjZXNz",
+						"type": "text"
+					},
+					{
+						"key": "requestIP",
+						"value": "1.2.3.4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstname\":\"Tobi\",\r\n     \"lastname\":\"Daniel\",\r\n      \"email\":\"omoyeletobi@gmail.com\",\r\n       \"phonenumber\":\"08128284269\",\r\n        \"password\":\"123\",\r\n         \"profilePictureUrl\":\"vfgbhjkl;\",\r\n         \"dateRegistered\":\"2024-08-28\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8998/user/register",
+					"host": [
+						"localhost"
+					],
+					"port": "8998",
+					"path": [
+						"user",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User_reg",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "Tm90aGluZztTcGhlcmVvZkxpZ2h0OkJhY2tlbmQ6QWNjZXNz",
+						"type": "text"
+					},
+					{
+						"key": "requestIP",
+						"value": "1.2.3.4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstname\":\"Tobi\",\r\n     \"lastname\":\"Daniel\",\r\n      \"email\":\"omoyeletobi@gmail.com\",\r\n       \"phonenumber\":\"08128284269\",\r\n        \"password\":\"123\",\r\n         \"profilePictureUrl\":\"vfgbhjkl;\",\r\n         \"dateRegistered\":\"2024-08-28\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8998/user/register",
+					"host": [
+						"localhost"
+					],
+					"port": "8998",
+					"path": [
+						"user",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Video upload",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "Tm90aGluZztTcGhlcmVvZkxpZ2h0OkJhY2tlbmQ6QWNjZXNz",
+						"type": "text"
+					},
+					{
+						"key": "requestIP",
+						"value": "1.2.3.4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstname\":\"Tobi\",\r\n     \"lastname\":\"Daniel\",\r\n      \"email\":\"omoyeletobi@gmail.com\",\r\n       \"phonenumber\":\"08128284269\",\r\n        \"password\":\"123\",\r\n         \"profilePictureUrl\":\"vfgbhjkl;\",\r\n         \"dateRegistered\":\"2024-08-28\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8998/user/register",
+					"host": [
+						"localhost"
+					],
+					"port": "8998",
+					"path": [
+						"user",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Video Payment by user",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "Tm90aGluZztTcGhlcmVvZkxpZ2h0OkJhY2tlbmQ6QWNjZXNz",
+						"type": "text"
+					},
+					{
+						"key": "requestIP",
+						"value": "1.2.3.4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstname\":\"Tobi\",\r\n     \"lastname\":\"Daniel\",\r\n      \"email\":\"omoyeletobi@gmail.com\",\r\n       \"phonenumber\":\"08128284269\",\r\n        \"password\":\"123\",\r\n         \"profilePictureUrl\":\"vfgbhjkl;\",\r\n         \"dateRegistered\":\"2024-08-28\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8998/user/register",
+					"host": [
+						"localhost"
+					],
+					"port": "8998",
+					"path": [
+						"user",
+						"register"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
